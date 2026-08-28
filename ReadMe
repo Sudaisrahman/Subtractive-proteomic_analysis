@@ -1,0 +1,97 @@
+# In Silico-Based Novel Antigen Identification in *Rhipicephalus microplus*
+
+[License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[Workflow](https://img.shields.io/badge/Workflow-Subtractive%20Proteomics-green.svg)]()
+[Organism](https://img.shields.io/badge/Organism-*R.%20microplus*-orange.svg)]()
+
+# Overview
+
+This repository contains a reproducible bioinformatics workflow for
+the identification and prioritization of novel antigen candidates
+from the *Rhipicephalus microplus* proteome using an integrated
+subtractive proteomics approach.
+
+The workflow combines sequence redundancy reduction, host-homology
+filtering, essentiality analysis, subcellular localization,
+antigenicity prediction, allergenicity and toxicity screening,
+sequence conservation, functional annotation, and candidate
+prioritization.
+
+The primary objective is to identify *R. microplus* proteins that
+may represent promising antigen candidates for subsequent
+experimental investigation and vaccine-development studies.
+
+## Biological Objective
+
+Ticks represent important vectors and ectoparasites affecting
+livestock health. Identification of suitable antigenic targets can
+support the development of alternative approaches for tick control.
+
+The objective of this computational study is to systematically
+screen the *R. microplus* proteome and prioritize proteins based on
+multiple biological and immunological characteristics.
+
+The analysis focuses on proteins that satisfy a combination of
+criteria including:
+
+- Essential biological function
+- Lack of significant similarity to selected host proteins
+- Predicted antigenicity
+- Favorable subcellular localization
+- Predicted non-allergenicity
+- Predicted non-toxicity
+- Sequence conservation
+- Functional relevance
+
+
+## Study Organism
+
+Organism: Rhipicephalus microplus
+
+Reference assembly: GCF_013339725.1
+
+Data type: Protein sequences
+
+Primary database: NCBI
+
+The exact accession, release information, and download date are
+documented 
+
+## Host Organisms
+
+Host-homology subtraction is performed against the selected host
+proteomes.
+
+The current analysis considers:
+
+. Bos taurus
+. Homo sapiens
+
+The purpose of this filtering step is to reduce the likelihood of
+prioritizing proteins with substantial similarity to host proteins.
+
+# Computational Workflow
+
+                    . R. microplus Proteome
+                              
+                    . Proteome Quality Control
+                              
+                    . Redundancy Reduction
+                             
+                    . Host-Homology Subtraction
+                              
+                     . Essentiality Analysis
+                             
+                  . Subcellular Localization
+                             
+                     . Antigenicity Prediction
+                              
+                . Allergenicity / Toxicity Screening
+                              
+                     . Conservation Analysis
+                              
+                     . Functional Annotation
+                             
+                    . Candidate Prioritization
+                             
+                   . Novel Antigen Candidates
